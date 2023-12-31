@@ -19,5 +19,5 @@ Design a Key Value Store on top of a SQL database. Exposes APIs to GET, PUT, DEL
 ### Learnings
 - SQL Transactions.
 - Pessimistic Locking.
-- Scaling by Manually Sharding Database (range based sharding).
+- SQL DB horizontally Scaling by Manually Sharding Database (range based sharding).
   
