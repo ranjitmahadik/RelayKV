@@ -1,8 +1,8 @@
 #!/bin/bash
 
-DB_USER="user"
-DB_PASS="user@123"
-DB_NAME="kv"
+DB_USER="$POSTGRES_USER"
+DB_PASS="$POSTGRES_PASSWORD"
+DB_NAME="$POSTGRES_DB"
 ROWS_LIMIT=1000
 
 psql -U "$DB_USER" -d "$DB_NAME" -c "WITH rows_to_delete AS (
