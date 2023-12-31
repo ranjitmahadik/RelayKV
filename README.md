@@ -18,6 +18,6 @@ Design a Key Value Store on top of a SQL database. Exposes APIs to GET, PUT, DEL
 
 ### Learnings
 - SQL Transactions.
-- Pessimestic Locking.
+- Pessimistic Locking.
 - Scaling by Manually Sharding Database (range based sharding).
   
