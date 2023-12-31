@@ -13,7 +13,7 @@ Design a Key Value Store on top of a SQL database. Exposes APIs to GET, PUT, DEL
   POSTGRES_USER=user
   POSTGRES_DB=kv  # do not change db name, else application won't work.
   ```
-- now just run docker compose up -d to run all required containers.
+- now just run `docker compose up -d` to run all required containers.
   
 
 ### Learnings
