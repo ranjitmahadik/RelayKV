@@ -1,0 +1,25 @@
+server:
+  port: 8081
+app:
+  datasource:
+    main:
+      driver-class-name: org.postgresql.Driver
+      jdbc-url: jdbc:postgresql://localhost:5432/kv
+      username: user
+      password: "user@123"
+      pool-size: 5
+    shards:
+      - driver-class-name: org.postgresql.Driver
+        jdbc-url: jdbc:postgresql://localhost:5432/kv
+        username: user
+        password: "user@123"
+        pool-size: 5
+      - driver-class-name: org.postgresql.Driver
+        jdbc-url: jdbc:postgresql://localhost:5433/kv
+        username: user
+        password: "user@123"
+        pool-size: 5
+logging:
+  level:
+    com.zaxxer.hikari.HikariConfig: DEBUG
+    com.zaxxer.hikari: TRACE
