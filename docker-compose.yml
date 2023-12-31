@@ -6,7 +6,7 @@ services:
     ports:
       - "5432:5432"
     env_file:
-      - ./db/.env
+      - ./src/main/resources/.env
     restart: unless-stopped
     networks:
       - postgres_network
@@ -20,7 +20,7 @@ services:
     ports:
       - "5433:5432"
     env_file:
-      - ./db/.env
+      - ./src/main/resources/.env
     restart: unless-stopped
     networks:
       - postgres_network
