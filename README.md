@@ -5,7 +5,7 @@ Design a Key Value Store on top of a SQL database. Exposes APIs to GET, PUT, DEL
 - make sure you have docker installed.
 - database setup
   add postgres username and password in file present inside `src/main/resources` folder.
-  complete path: `src/main/resources`/.env`
+  complete path: `src/main/resources/.env`
   have provided example in `src/main/resources/example.env`
   ```
   # .env file for PostgreSQL containers
